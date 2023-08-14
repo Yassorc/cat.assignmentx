@@ -1,0 +1,325 @@
+.clr {
+    clear: both;
+}
+
+.contianer {
+    width: 80%;
+    margin: 25px auto;
+}
+
+/* <!-- toolpar -->................ */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.toolpar {
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+
+}
+
+.toolpar-img {
+
+    float: left;
+}
+
+.toolpar-img img {
+    width: 200px;
+}
+
+.toolpar-info {
+
+    float: right;
+
+
+}
+
+.toolpar-info li {
+    display: inline-block;
+
+    padding: 10px;
+
+}
+
+.toolpar-info a {
+    text-decoration: none;
+    color: #F8F8F8;
+}
+
+
+
+
+
+
+/* header............... */
+
+h1 {
+    margin: 30px 0px;
+}
+
+.header {
+    background-image: url('./img/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+
+    text-align: center;
+    color: #F8F8F8;
+
+    height: 100vh;
+    background-attachment: fixed;
+
+
+}
+
+.header h5,
+h1,
+p,
+button {
+    padding: 50px 20px;
+
+}
+
+button {
+    padding: 15px 30px;
+    border: 0px;
+
+
+}
+
+.brown-t {
+    background-color: #c1ab84;
+    color: #F8F8F8;
+    border: 1px solid white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: all 1s ease;
+    cursor: pointer;
+
+}
+
+.brown-t:hover {
+
+    background-color: #FFFFFF;
+    color: black;
+
+
+
+}
+
+
+
+.white-t {
+    background-color: transparent;
+    color: #F8F8F8;
+    border: 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: all 1s ease;
+    cursor: pointer;
+
+}
+
+.white-t:hover {
+    background-color: rgb(0, 0, 0, 0.2);
+    color: antiquewhite;
+
+}
+
+
+
+
+
+
+
+.our-baking {
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+    text-align: center;
+
+
+}
+
+
+.bake-item {
+    background-color: #FFFFFF;
+    width: 33.333%;
+    float: left;
+}
+
+.bake-item img {
+    width: 90%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+
+/* location info new site  */
+/* .clr{
+    clear: both;
+    not need to define it agian
+} */
+
+.our-location {
+    padding: 50px 0px;
+    background-color: #F8F8F8;
+
+
+
+}
+
+.location-info {
+    text-align: left;
+
+}
+
+.location-info p {
+    padding: 50px 20px;
+}
+
+
+.location-img {
+    text-align: center;
+
+}
+
+.location-img img {
+    width: 90%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+
+
+.location-info,
+.location-img {
+    width: 50%;
+    float: left;
+}
+
+/* description section ................................. */
+
+.description {
+    background-color: #FFFFFF;
+
+}
+
+
+.description-img {
+
+    text-align: center;
+}
+
+.description-img img {
+    width: 80%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.description-info {
+    text-align: center;
+
+
+}
+
+.description-info h2 {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.16px;
+    font-family: 'Pangolin', cursive;
+    color: rgb(48, 48, 48);
+
+}
+
+.description-info p {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.62px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: rgb(104, 104, 104);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.description .description-info ul img {
+    width: 10px;
+
+
+}
+
+.description .description-info ul p {
+    display: inline-block;
+    /* vertical-align: ; */
+    /* الفيرتكل الااين ده اللي بيتحكم في 
+    الصورة جمب الكلام فوق وتحت وكده 
+    ولازم تديها للصورة التاج الي فوقي */
+}
+
+
+.description-info,
+.description-img {
+    width: 50%;
+    float: left;
+}
+
+.contact {
+    padding: 50px 0px;
+    background-color: #403D38;
+    line-height: 29.76px;
+
+
+
+
+
+}
+
+.contact-part {
+    float: left;
+    width: 25%;
+    padding: 20px;
+
+}
+
+.contact-part h4 {
+    color: #F8F8F8;
+    margin: 20px 0px;
+    font-size: 18px;
+    Line-height: 24.84px;
+}
+
+.contact-part p,
+li {
+    color: #96967E;
+}
+
+.mab {
+    background-image: url('vt.png');
+
+    background-size: 100% 100%;
+    filter: opacity(0.7);
+}
+
+
+@media screen and (min-width: 0px) and (max-width:600px) {
+    body {
+        background-color: aqua;
+    }
+
+}
